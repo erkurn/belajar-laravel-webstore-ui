@@ -19,21 +19,38 @@
                 <div>
                     <h4 class="font-semibold text-gray-100">Shipping Method</h4>
                     <div class="flex flex-wrap gap-2 mt-3">
-                        <div class="w-32 h-10 bg-gray-400 rounded-2xl"></div>
-                        <div class="w-32 h-10 bg-gray-400 rounded-2xl"></div>
-                        <div class="w-32 h-10 bg-gray-400 rounded-2xl"></div>
-                        <div class="w-32 h-10 bg-gray-400 rounded-2xl"></div>
-                        <div class="w-32 h-10 bg-gray-400 rounded-2xl"></div>
+                        <div class="max-h-10">
+                            <img src="{{ asset('images/shipping/idexpress.webp') }}" alt="idexpress" />
+                        </div>
+                        <div class="flex items-center px-2 bg-white">
+                            <img src="{{ asset('images/shipping/jne.svg') }}" alt="jne" />
+                        </div>
+                        <div class="flex items-center px-2 bg-white">
+                            <img src="{{ asset('images/shipping/jntexpress.svg') }}" alt="jnt" />
+                        </div>
+                        <div class="flex items-center px-2 bg-white">
+                            <img src="{{ asset('images/shipping/ninjaexpress.webp') }}" alt="ninja" />
+                        </div>
+                        <div class="flex items-center px-2 bg-white">
+                            <img src="{{ asset('images/shipping/sicepat.webp') }}" alt="sicepat" />
+                        </div>
+
                     </div>
                 </div>
                 <div>
                     <h4 class="font-semibold text-gray-100">Payment Method</h4>
                     <div class="flex flex-wrap gap-2 mt-3">
-                        <div class="w-32 h-10 bg-gray-400 rounded-2xl"></div>
-                        <div class="w-32 h-10 bg-gray-400 rounded-2xl"></div>
-                        <div class="w-32 h-10 bg-gray-400 rounded-2xl"></div>
-                        <div class="w-32 h-10 bg-gray-400 rounded-2xl"></div>
-                        <div class="w-32 h-10 bg-gray-400 rounded-2xl"></div>
+                        <div class="flex items-center px-2 bg-white">
+                            <img src="{{ asset('images/bank/bca-bank-central-asia.svg') }}" class="h-10 p-2"
+                                alt="bca" />
+                        </div>
+                        <div class="flex items-center px-2 bg-white">
+                            <img src="{{ asset('images/bank/bank-mandiri.svg') }}" class="h-10 p-2" alt="mandiri" />
+                        </div>
+                        <div class="flex items-center px-2 bg-white">
+                            <img src="{{ asset('images/bank/bank-negara-indonesia.svg') }}" class="h-10 p-2"
+                                alt="BNI" />
+                        </div>
                     </div>
                 </div>
             </div>

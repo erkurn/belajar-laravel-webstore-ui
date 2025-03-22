@@ -1,7 +1,7 @@
 <x-store-layout>
     <div class="container mx-auto max-w-[85rem] w-full px-4 sm:px-6 lg:px-8 py-10">
         <x-breadcumbs />
-        <div class="grid gap-10 my-5 md:grid-cols-10">
+        <div class="grid grid-cols-1 gap-10 my-5 md:grid-cols-10">
             <div class="md:col-span-7">
                 <x-vertical-carousel />
             </div>

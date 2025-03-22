@@ -39,7 +39,7 @@
                         </select>
                     </div>
                 </div>
-                <div class="grid grid-cols-3 gap-5 my-5">
+                <div class="grid gap-5 my-5 md:grid-cols-3">
                     @for ($i = 0; $i <= 10; $i++)
                         <x-single-product-card />
                     @endfor
