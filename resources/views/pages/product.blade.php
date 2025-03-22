@@ -25,7 +25,7 @@
                             <path d="M6 14h12" />
                             <rect width="12" height="12" x="6" y="10" />
                         </svg>
-                        Stock Available
+                        Ready Stock
                     </div>
                 </div>
                 <div>

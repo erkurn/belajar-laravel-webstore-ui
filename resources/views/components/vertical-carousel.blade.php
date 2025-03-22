@@ -1,5 +1,6 @@
 <!-- Slider -->
 <div data-hs-carousel='{
+    "isInfiniteLoop": true,
     "loadingClasses": "opacity-0"
   }' class="relative">
     <div class="flex flex-col gap-2 hs-carousel md:flex-row">
@@ -7,39 +8,27 @@
             <div
                 class="absolute top-0 bottom-0 flex transition-transform duration-700 opacity-0 hs-carousel-body start-0 flex-nowrap">
                 <div class="hs-carousel-slide">
-                    <div class="flex justify-center h-full p-6 bg-gray-100 dark:bg-neutral-900">
-                        <span class="self-center text-4xl text-gray-800 transition duration-700 dark:text-white">First
-                            slide</span>
+                    <div class="flex justify-center h-full bg-gray-100 dark:bg-neutral-900">
+                        <span class="self-center text-4xl text-gray-800 transition duration-700 dark:text-white">
+                            <img
+                                src="https://images.unsplash.com/photo-1569097941209-aca563eb07d8?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
+                        </span>
                     </div>
                 </div>
                 <div class="hs-carousel-slide">
-                    <div class="flex justify-center h-full p-6 bg-gray-200 dark:bg-neutral-800">
-                        <span class="self-center text-4xl text-gray-800 transition duration-700 dark:text-white">Second
-                            slide</span>
+                    <div class="flex justify-center h-full bg-gray-200 dark:bg-neutral-800">
+                        <span class="self-center text-4xl text-gray-800 transition duration-700 dark:text-white">
+                            <img
+                                src="https://images.unsplash.com/photo-1564347654812-bcc3f3bca7ff?q=80&w=1664&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
+                        </span>
                     </div>
                 </div>
                 <div class="hs-carousel-slide">
-                    <div class="flex justify-center h-full p-6 bg-gray-300 dark:bg-neutral-700">
-                        <span class="self-center text-4xl text-gray-800 transition duration-700 dark:text-white">Third
-                            slide</span>
-                    </div>
-                </div>
-                <div class="hs-carousel-slide">
-                    <div class="flex justify-center h-full p-6 bg-gray-100 dark:bg-neutral-900">
-                        <span class="self-center text-4xl text-gray-800 transition duration-700 dark:text-white">Fourth
-                            slide</span>
-                    </div>
-                </div>
-                <div class="hs-carousel-slide">
-                    <div class="flex justify-center h-full p-6 bg-gray-200 dark:bg-neutral-800">
-                        <span class="self-center text-4xl text-gray-800 transition duration-700 dark:text-white">Fifth
-                            slide</span>
-                    </div>
-                </div>
-                <div class="hs-carousel-slide">
-                    <div class="flex justify-center h-full p-6 bg-gray-300 dark:bg-neutral-700">
-                        <span class="self-center text-4xl text-gray-800 transition duration-700 dark:text-white">Sixth
-                            slide</span>
+                    <div class="flex justify-center h-full bg-gray-300 dark:bg-neutral-700">
+                        <span class="self-center text-4xl text-gray-800 transition duration-700 dark:text-white">
+                            <img
+                                src="https://images.unsplash.com/photo-1523779105320-d1cd346ff52b?q=80&w=1746&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
+                        </span>
                     </div>
                 </div>
             </div>
@@ -73,46 +62,32 @@
                 class="flex flex-row gap-2 overflow-x-auto hs-carousel-pagination max-h-96 md:flex-col md:overflow-x-hidden md:overflow-y-auto">
                 <div
                     class="overflow-hidden border border-gray-200 rounded-md cursor-pointer hs-carousel-pagination-item shrink-0 size-20 md:size-32 hs-carousel-active:border-blue-400 dark:border-neutral-700">
-                    <div
-                        class="flex items-center justify-center p-2 text-center bg-gray-100 size-full dark:bg-neutral-900">
-                        <span class="text-xs text-gray-800 transition duration-700 dark:text-white">First slide</span>
+                    <div class="flex items-center justify-center text-center bg-gray-100 size-full dark:bg-neutral-900">
+                        <span class="text-xs text-gray-800 transition duration-700 dark:text-white">
+                            <img
+                                src="https://images.unsplash.com/photo-1569097941209-aca563eb07d8?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
+                        </span>
                     </div>
                 </div>
                 <div
                     class="overflow-hidden border border-gray-200 rounded-md cursor-pointer hs-carousel-pagination-item shrink-0 size-20 md:size-32 hs-carousel-active:border-blue-400 dark:border-neutral-700">
-                    <div
-                        class="flex items-center justify-center p-2 text-center bg-gray-200 size-full dark:bg-neutral-800">
-                        <span class="text-xs text-gray-800 transition duration-700 dark:text-white">Second slide</span>
+                    <div class="flex items-center justify-center text-center bg-gray-200 size-full dark:bg-neutral-800">
+                        <span class="text-xs text-gray-800 transition duration-700 dark:text-white">
+                            <img
+                                src="https://images.unsplash.com/photo-1564347654812-bcc3f3bca7ff?q=80&w=1664&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
+                        </span>
                     </div>
                 </div>
                 <div
                     class="overflow-hidden border border-gray-200 rounded-md cursor-pointer hs-carousel-pagination-item shrink-0 size-20 md:size-32 hs-carousel-active:border-blue-400 dark:border-neutral-700">
-                    <div
-                        class="flex items-center justify-center p-2 text-center bg-gray-300 size-full dark:bg-neutral-700">
-                        <span class="text-xs text-gray-800 transition duration-700 dark:text-white">Third slide</span>
+                    <div class="flex items-center justify-center text-center bg-gray-300 size-full dark:bg-neutral-700">
+                        <span class="text-xs text-gray-800 transition duration-700 dark:text-white">
+                            <img
+                                src="https://images.unsplash.com/photo-1523779105320-d1cd346ff52b?q=80&w=1746&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
+                        </span>
                     </div>
                 </div>
-                <div
-                    class="overflow-hidden border border-gray-200 rounded-md cursor-pointer hs-carousel-pagination-item shrink-0 size-20 md:size-32 hs-carousel-active:border-blue-400 dark:border-neutral-700">
-                    <div
-                        class="flex items-center justify-center p-2 text-center bg-gray-100 size-full dark:bg-neutral-900">
-                        <span class="text-xs text-gray-800 transition duration-700 dark:text-white">Fourth slide</span>
-                    </div>
-                </div>
-                <div
-                    class="overflow-hidden border border-gray-200 rounded-md cursor-pointer hs-carousel-pagination-item shrink-0 size-20 md:size-32 hs-carousel-active:border-blue-400 dark:border-neutral-700">
-                    <div
-                        class="flex items-center justify-center p-2 text-center bg-gray-200 size-full dark:bg-neutral-800">
-                        <span class="text-xs text-gray-800 transition duration-700 dark:text-white">Fifth slide</span>
-                    </div>
-                </div>
-                <div
-                    class="overflow-hidden border border-gray-200 rounded-md cursor-pointer hs-carousel-pagination-item shrink-0 size-20 md:size-32 hs-carousel-active:border-blue-400 dark:border-neutral-700">
-                    <div
-                        class="flex items-center justify-center p-2 text-center bg-gray-300 size-full dark:bg-neutral-700">
-                        <span class="text-xs text-gray-800 transition duration-700 dark:text-white">Sixth slide</span>
-                    </div>
-                </div>
+
             </div>
         </div>
     </div>

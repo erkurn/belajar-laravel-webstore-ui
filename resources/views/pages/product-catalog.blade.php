@@ -1,31 +1,43 @@
 <x-store-layout>
     <div class="container mx-auto max-w-[85rem] w-full px-4 sm:px-6 lg:px-8 py-10">
-        <div class="grid grid-cols-1 gap-4 md:grid-cols-10">
-            <div class="grid grid-cols-1 gap-5 pr-6 border-r border-gray-200 md:col-span-3">
+        <div class="grid grid-cols-1 gap-10 md:grid-cols-10">
+            <div class="grid grid-cols-1 gap-10 pr-6 border-r border-gray-200 md:col-span-3">
                 <div>
                     <span class="block mb-2 text-lg font-semibold text-gray-800 dark:text-neutral-200">
                         Collections
                     </span>
                     <div class="space-y-4">
-                        @for ($i = 0; $i <= 5; $i++)
+                        @php
+                            $collections = [
+                                'Outwear',
+                                'Top',
+                                'Bottom',
+                                'Dress',
+                                'Accessories',
+                                'Footwear',
+                                'Activewear',
+                            ];
+                        @endphp
+                        @foreach ($collections as $i => $item)
                             <div class="flex items-center justify-between">
                                 <div class="flex">
                                     <input type="checkbox"
                                         class="shrink-0 mt-0.5 border-gray-200 rounded-sm text-blue-600 focus:ring-blue-500 checked:border-blue-500 disabled:opacity-50 disabled:pointer-events-none dark:bg-neutral-800 dark:border-neutral-700 dark:checked:bg-blue-500 dark:checked:border-blue-500 dark:focus:ring-offset-gray-800"
                                         id="hs-default-checkbox-{{ $i }}">
                                     <label for="hs-default-checkbox-{{ $i }}"
-                                        class="text-sm font-light ms-3 dark:text-neutral-400">Collection
-                                        Name #{{ $i }}</label>
+                                        class="text-sm font-light ms-3 dark:text-neutral-400">
+                                        {{ $item }}
+                                    </label>
                                 </div>
                                 <span class="text-xs text-gray-800 font-loght">({{ rand(1, 99) }})</span>
                             </div>
-                        @endfor
+                        @endforeach
                     </div>
                 </div>
             </div>
             <div class="col-span-1 md:col-span-7">
-                <div class="flex items-center justify-between gap-5 md:justify-end">
-                    <div class="font-light text-gray-800">100 Items</div>
+                <div class="flex items-center justify-between gap-5">
+                    <div class="font-light text-gray-800">Results: 100 Items</div>
                     <div class="flex items-center gap-2">
                         <span class="text-sm font-light text-gray-800 dark:text-neutral-200">
                             Sort By :
@@ -39,7 +51,7 @@
                         </select>
                     </div>
                 </div>
-                <div class="grid gap-5 my-5 md:grid-cols-3">
+                <div class="grid grid-cols-1 gap-5 my-5 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3">
                     @for ($i = 0; $i <= 10; $i++)
                         <x-single-product-card />
                     @endfor
