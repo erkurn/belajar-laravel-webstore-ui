@@ -17,7 +17,7 @@ Repositori ini adalah 'Starter Kit' Laravel 12 yang dilengkapi dengan template e
 
 Pastikan Anda sudah menginstal **PHP, Composer, dan Node.js** di sistem Anda.
 
-1. \*\*Install Menggunakan Laravel Installer
+1. Install Menggunakan Laravel Installer
     ```sh
     laravel new webstore --using=erkurn/belajar-laravel-webstore-ui
     ```
