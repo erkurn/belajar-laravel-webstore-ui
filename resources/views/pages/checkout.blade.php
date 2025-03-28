@@ -108,8 +108,7 @@
                     </div>
                 </div>
             </div>
-            <div
-                class="p-10 before:hidden md:before:block before:absolute before:inset-y-0 before:start-1/2 before:-z-1 before:w-full before:bg-gray-50 dark:before:bg-neutral-800">
+            <div class="p-10">
                 <h1 class="mb-5 text-2xl font-light">Order Summary</h1>
                 <div>
                     @for ($i = 1; $i < 5; $i++)

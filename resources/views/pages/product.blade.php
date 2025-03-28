@@ -2,8 +2,21 @@
     <div class="container mx-auto max-w-[85rem] w-full px-4 sm:px-6 lg:px-8 py-10">
         <x-breadcumbs />
         <div class="grid grid-cols-1 gap-10 my-5 md:grid-cols-10">
-            <div class="md:col-span-7">
-                <x-vertical-carousel />
+            <div class="grid grid-cols-1 gap-2 md:col-span-7">
+                <div class="w-full">
+                    <img src="https://images.unsplash.com/photo-1569385210246-0873a782fd59?q=80&w=1760&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="Cover" class="object-cover w-full rounded-md aspect-3/2 md:col-span-3">
+                    <div class="grid grid-cols-1 gap-2 my-2 md:grid-cols-3 md:col-span-7">
+                        <img src="https://images.unsplash.com/photo-1569097941209-aca563eb07d8?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            alt="image-1" class="object-cover rounded-md aspect-square" />
+                        <img src="https://images.unsplash.com/photo-1569097941209-aca563eb07d8?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            alt="image-1" class="object-cover rounded-md aspect-square" />
+                        <img src="https://images.unsplash.com/photo-1569097941209-aca563eb07d8?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            alt="image-1" class="object-cover rounded-md aspect-square" />
+                        <img src="https://images.unsplash.com/photo-1569097941209-aca563eb07d8?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            alt="image-1" class="object-cover rounded-md aspect-square" />
+                    </div>
+                </div>
             </div>
             <div class="md:col-span-3">
                 <div class="flex flex-col gap-2">
@@ -119,103 +132,26 @@
                         </button>
                     </div>
                 </div>
-            </div>
-            <div class="md:col-span-10">
-                <div class="hs-accordion-group">
-                    <div class="hs-accordion active" id="hs-basic-with-arrow-heading-one">
-                        <button
-                            class="inline-flex items-center w-full py-3 font-semibold text-gray-800 rounded-lg hs-accordion-toggle hs-accordion-active:text-blue-600 gap-x-3 text-start hover:text-gray-500 focus:outline-hidden focus:text-gray-500 disabled:opacity-50 disabled:pointer-events-none dark:hs-accordion-active:text-blue-500 dark:text-neutral-200 dark:hover:text-neutral-400 dark:focus:text-neutral-400"
-                            aria-expanded="true" aria-controls="hs-basic-with-arrow-collapse-one">
-                            <svg class="block hs-accordion-active:hidden size-4" xmlns="http://www.w3.org/2000/svg"
-                                width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                stroke-linejoin="round">
-                                <path d="m6 9 6 6 6-6"></path>
-                            </svg>
-                            <svg class="hidden hs-accordion-active:block size-4" xmlns="http://www.w3.org/2000/svg"
-                                width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                stroke-linejoin="round">
-                                <path d="m18 15-6-6-6 6"></path>
-                            </svg>
-                            Description
-                        </button>
-                        <div id="hs-basic-with-arrow-collapse-one"
-                            class="hs-accordion-content w-full overflow-hidden transition-[height] duration-300"
-                            role="region" aria-labelledby="hs-basic-with-arrow-heading-one">
-                            <p class="text-gray-800 dark:text-neutral-200">
-                                <em>This is the third item's accordion body.</em> It is hidden by default, until
-                                the collapse plugin adds the appropriate classes that we use to style each
-                                element. These classes control the overall appearance, as well as the showing
-                                and hiding via CSS transitions.
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="hs-accordion" id="hs-basic-with-arrow-heading-two">
-                        <button
-                            class="inline-flex items-center w-full py-3 font-semibold text-gray-800 rounded-lg hs-accordion-toggle hs-accordion-active:text-blue-600 gap-x-3 text-start hover:text-gray-500 focus:outline-hidden focus:text-gray-500 disabled:opacity-50 disabled:pointer-events-none dark:hs-accordion-active:text-blue-500 dark:text-neutral-200 dark:hover:text-neutral-400 dark:focus:text-neutral-400"
-                            aria-expanded="false" aria-controls="hs-basic-with-arrow-collapse-two">
-                            <svg class="block hs-accordion-active:hidden size-4" xmlns="http://www.w3.org/2000/svg"
-                                width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                stroke-linejoin="round">
-                                <path d="m6 9 6 6 6-6"></path>
-                            </svg>
-                            <svg class="hidden hs-accordion-active:block size-4" xmlns="http://www.w3.org/2000/svg"
-                                width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                stroke-linejoin="round">
-                                <path d="m18 15-6-6-6 6"></path>
-                            </svg>
-                            Shipping & Return
-                        </button>
-                        <div id="hs-basic-with-arrow-collapse-two"
-                            class="hs-accordion-content hidden w-full overflow-hidden transition-[height] duration-300"
-                            role="region" aria-labelledby="hs-basic-with-arrow-heading-two">
-                            <p class="text-gray-800 dark:text-neutral-200">
-                                <em>This is the third item's accordion body.</em> It is hidden by default, until
-                                the collapse plugin adds the appropriate classes that we use to style each
-                                element. These classes control the overall appearance, as well as the showing
-                                and hiding via CSS transitions.
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="hs-accordion" id="hs-basic-with-arrow-heading-three">
-                        <button
-                            class="inline-flex items-center w-full py-3 font-semibold text-gray-800 rounded-lg hs-accordion-toggle hs-accordion-active:text-blue-600 gap-x-3 text-start hover:text-gray-500 focus:outline-hidden focus:text-gray-500 disabled:opacity-50 disabled:pointer-events-none dark:hs-accordion-active:text-blue-500 dark:text-neutral-200 dark:hover:text-neutral-400 dark:focus:text-neutral-400"
-                            aria-expanded="false" aria-controls="hs-basic-with-arrow-collapse-three">
-                            <svg class="block hs-accordion-active:hidden size-4" xmlns="http://www.w3.org/2000/svg"
-                                width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                stroke-linejoin="round">
-                                <path d="m6 9 6 6 6-6"></path>
-                            </svg>
-                            <svg class="hidden hs-accordion-active:block size-4" xmlns="http://www.w3.org/2000/svg"
-                                width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                stroke-linejoin="round">
-                                <path d="m18 15-6-6-6 6"></path>
-                            </svg>
-                            FAQ
-                        </button>
-                        <div id="hs-basic-with-arrow-collapse-three"
-                            class="hs-accordion-content hidden w-full overflow-hidden transition-[height] duration-300"
-                            role="region" aria-labelledby="hs-basic-with-arrow-heading-three">
-                            <p class="text-gray-800 dark:text-neutral-200">
-                                <em>This is the third item's accordion body.</em> It is hidden by default, until
-                                the collapse plugin adds the appropriate classes that we use to style each
-                                element. These classes control the overall appearance, as well as the showing
-                                and hiding via CSS transitions.
-                            </p>
-                        </div>
+                <div>
+                    <h3 class="font-semibold">Description</h3>
+                    <div class="my-2 prose text-gray-800 dark:text-neutral-200">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, aut consequuntur? Sapiente
+                            repellat odit eos, ipsam laudantium obcaecati animi provident voluptatum voluptate
+                            perferendis cum accusantium ullam quod veritatis. Harum, maxime.</p>
+                        <p>Unde error dolores vel dicta hic accusamus nam reprehenderit veritatis itaque, necessitatibus
+                            eligendi dolorum. Eaque fuga porro aliquam, soluta fugiat sapiente assumenda aspernatur
+                            veniam, animi deleniti quidem dolorum quas iure.</p>
+                        <p>Magnam et saepe, maxime ex beatae laudantium possimus provident aut ea necessitatibus
+                            pariatur tempore quis alias, accusantium dolorum illo! Consequatur vero rem id deserunt
+                            illum aut ex magni animi quis.</p>
+                        <p>Aspernatur quaerat facere dolores quos enim doloremque optio ullam, iste illo facilis!
+                            Nostrum aperiam itaque, sint cum minima quod voluptate inventore ex culpa ipsam soluta
+                            explicabo, labore quasi atque deserunt.</p>
                     </div>
                 </div>
             </div>
             <div class="md:col-span-10">
-                <h2>You may also like</h2>
-                <x-product-sections />
+                <x-product-sections title="You may also like" />
             </div>
 
         </div>
