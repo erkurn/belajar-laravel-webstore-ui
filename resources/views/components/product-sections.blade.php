@@ -1,4 +1,4 @@
-@props(['title' => 'Title Section'])
+@props(['title' => 'Title Section', 'url' => '#'])
 <!-- Title -->
 <div class="max-w-2xl mx-auto text-center">
     <h2 class="text-xl font-bold md:text-2xl md:leading-tight dark:text-white">{{ $title }}</h2>
@@ -13,7 +13,7 @@
         @endfor
     </div>
     <div class="flex justify-center w-full mt-5">
-        <a href="#" class="flex items-center text-gray-700">
+        <a href="{{ $url }}" class="flex items-center text-gray-700">
             <span class="border-b">
                 Show More Product
             </span>

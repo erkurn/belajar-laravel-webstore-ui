@@ -16,6 +16,7 @@
         "vite": "^6.0.11"
     },
     "dependencies": {
+        "alpinejs": "^3.14.9",
         "preline": "^3.0.1",
         "vanilla-calendar-pro": "^3.0.3"
     }

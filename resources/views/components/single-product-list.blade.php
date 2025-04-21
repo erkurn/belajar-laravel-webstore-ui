@@ -9,10 +9,7 @@
             <h3 class="text-gray-800 text-md dark:text-white">
                 Product Name
             </h3>
-            <div class="flex flex-wrap gap-1 mt-1">
-                <div class="px-2 text-xs border border-gray-200 rounded-md">Color: Red</div>
-                <div class="px-2 text-xs border border-gray-200 rounded-md">Size: Large</div>
-            </div>
+            <h2 class="text-sm text-gray-500">Ebook, Software Engineer, Web Developer</h2>
             <p class="mt-1 text-sm text-black text-md dark:text-black">
                 Rp.123.456 x 3
             </p>

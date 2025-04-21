@@ -61,11 +61,11 @@
 
                 <div class="grid mt-3 space-y-3">
                     <p><a class="inline-flex text-gray-400 gap-x-2 hover:text-gray-200 focus:outline-hidden focus:text-gray-200 dark:text-neutral-400 dark:hover:text-neutral-200 dark:focus:text-neutral-200"
-                            href="#">Term & Conditions</a></p>
+                            href="{{ route('page') }}">Term & Conditions</a></p>
                     <p><a class="inline-flex text-gray-400 gap-x-2 hover:text-gray-200 focus:outline-hidden focus:text-gray-200 dark:text-neutral-400 dark:hover:text-neutral-200 dark:focus:text-neutral-200"
-                            href="#">Privacy</a></p>
+                            href="{{ route('page') }}">Privacy</a></p>
                     <p><a class="inline-flex text-gray-400 gap-x-2 hover:text-gray-200 focus:outline-hidden focus:text-gray-200 dark:text-neutral-400 dark:hover:text-neutral-200 dark:focus:text-neutral-200"
-                            href="#">Customers</a></p>
+                            href="{{ route('page') }}">Customers</a></p>
                 </div>
             </div>
             <!-- End Col -->
